@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hang Man!</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin+Sketch"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="text-align: center;
+           font-family: 'Cabin Sketch', cursive;
+           font-size: 30px"
+  >
+    <h1>GUESS THE WORD!</h1>
+    <div>
+      Hint :
+      <span id="quiz"></span>
+    </div>
+    <p id="guess"></p>
+    <p id="congrats" style="color: red"></p>
+    <button
+      type="button"
+      id="hintBtn"
+      style="font-family: 
+            'Cabin Sketch', cursive; 
+            font-size: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            outline: none"
+    >
+      show the first and last letters
+    </button>
+  </body>
+  <script src="wordsData.js"></script>
+  <script src="index.js"></script>
+</html>
